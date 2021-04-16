@@ -1,0 +1,128 @@
+.header{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__logo-img{
+    margin: 35px 80px;
+}
+.header__menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.header__menu-item{
+    width: 33px;
+    height: 24px;
+    top: 48px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 39px;
+    text-align: center;
+    color: #1B0A42;
+}
+
+.header__menu-item:first-child{
+    margin-left: 97px;
+}
+
+.header__menu-item:last-child{
+    margin: 0;
+}
+
+.container{
+    max-width: 1600px;
+    max-height: 920px;
+}
+
+.header__logo{
+    display: flex;
+    
+}
+
+.firstb{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    margin-top: 30px;
+    color:#1B0A42;
+    background: white;
+    border-radius: 6px;
+    border: 0;
+    margin-left: 750px;
+    font-weight: 400px;
+}
+
+.secondb{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    margin-top: 30px;
+    color: white;
+    background: #33A2E0;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 700px;
+}
+
+.main{
+    display: flex;
+}
+
+.main__text{
+    position: absolute;
+    width: 495px;
+    height: 152px;
+    left: 200px;
+    top: 280px;
+    font-family: 'Ramaraja', serif;
+    font-size: 72px;
+    line-height: 76px;
+    color: #1B0A42;
+}
+
+.main__text-1{
+    position: absolute;
+    width: 583px;
+    height: 96px;
+    left: 200px;
+    top: 442px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #9A9A9A;
+}
+
+.main__button{
+    position: absolute;
+    width: 152px;
+    height: 63px;
+    left: 200px;
+    top: 588px;
+    border: 0;
+    background: #33A2E0;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.main__image{
+    position: absolute;
+    width: 796px;
+    height: 543px;
+    left: 759px;
+    top: 221px;
+
+}
