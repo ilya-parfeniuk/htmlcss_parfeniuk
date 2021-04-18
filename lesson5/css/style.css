@@ -35,10 +35,10 @@
 
 .container{
     max-width: 1600px;
-    max-height: 920px;
+    margin: 0 auto;
 }
 
-.header__logo{
+.header__inner{
     display: flex;
     
 }
@@ -79,7 +79,6 @@
 }
 
 .main__text{
-    position: absolute;
     width: 495px;
     height: 152px;
     left: 200px;
@@ -91,8 +90,7 @@
 }
 
 .main__text-1{
-    position: absolute;
-    width: 583px;
+    width: 556px;
     height: 96px;
     left: 200px;
     top: 442px;
@@ -103,7 +101,6 @@
 }
 
 .main__button{
-    position: absolute;
     width: 152px;
     height: 63px;
     left: 200px;
@@ -116,13 +113,22 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 32px;
+    margin-top: 50px;
 }
 
 .main__image{
-    position: absolute;
     width: 796px;
     height: 543px;
     left: 759px;
     top: 221px;
+    margin-top: 70px;
 
+}
+
+.main__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 250px ;
 }
